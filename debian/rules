@@ -1,2 +1,4 @@
 #!/usr/bin/make -f
+DH_PHP_VERSIONS_OVERRIDE := $(shell /usr/sbin/phpquery -V | grep -E "^7")
+
 include /usr/share/dh-php/pkg-pecl.mk
