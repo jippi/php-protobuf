@@ -1,0 +1,13 @@
+php-grpc_1.35.0_arm64.deb php optional
+php7.0-grpc-dbgsym_1.35.0_arm64.ddeb debug optional
+php7.0-grpc_1.35.0_arm64.deb php optional
+php7.1-grpc-dbgsym_1.35.0_arm64.ddeb debug optional
+php7.1-grpc_1.35.0_arm64.deb php optional
+php7.2-grpc-dbgsym_1.35.0_arm64.ddeb debug optional
+php7.2-grpc_1.35.0_arm64.deb php optional
+php7.3-grpc-dbgsym_1.35.0_arm64.ddeb debug optional
+php7.3-grpc_1.35.0_arm64.deb php optional
+php7.4-grpc-dbgsym_1.35.0_arm64.ddeb debug optional
+php7.4-grpc_1.35.0_arm64.deb php optional
+php8.0-grpc-dbgsym_1.35.0_arm64.ddeb debug optional
+php8.0-grpc_1.35.0_arm64.deb php optional

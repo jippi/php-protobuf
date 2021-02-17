@@ -1,0 +1,25 @@
+Source: php-protobuf
+Section: php
+Priority: optional
+Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
+Uploaders: Guillaume Delacour <gui@iroqwa.org>,
+           Lior Kaplan <kaplan@debian.org>,
+Build-Depends: debhelper (>= 9),
+               dh-php (>= 0.33~),
+               g++,
+               libz-dev,
+               php-all-dev
+Standards-Version: 3.9.8
+Vcs-Browser: https://salsa.debian.org/php-team/pecl/php-protobuf
+Vcs-Git: https://salsa.debian.org/php-team/pecl/php-protobuf.git
+Homepage: http://pecl.php.net/package/protobuf
+
+Package: php-protobuf
+Architecture: any
+Pre-Depends: php-common (>= 2:69~)
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Recommends:
+Provides: ${php:Provides}
+Description: protobuf party
